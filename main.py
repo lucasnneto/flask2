@@ -6,6 +6,6 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello_world():
-    return "<p>Hello, World!</p>"
+    return "<p>Vai ter planeja conta PYTHON</p>"
 
 app.run(host='0.0.0.0',port=os.getenv('PORT'))
